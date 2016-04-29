@@ -1,0 +1,10 @@
+PODS:
+  - Promise (0.0.2)
+
+DEPENDENCIES:
+  - Promise (~> 0.0.2)
+
+SPEC CHECKSUMS:
+  Promise: e69a550153ba2b6b2674e29122d68b6035199f76
+
+COCOAPODS: 0.39.0
