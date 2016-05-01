@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		420E94891CD4BAB100D1AE55 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420E94851CD4BAB100D1AE55 /* HTTPMethod.swift */; };
+		420E948A1CD4BAB100D1AE55 /* HTTPRequestPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420E94861CD4BAB100D1AE55 /* HTTPRequestPath.swift */; };
+		420E948B1CD4BAB100D1AE55 /* HTTPResponseParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420E94871CD4BAB100D1AE55 /* HTTPResponseParser.swift */; };
+		420E948C1CD4BAB100D1AE55 /* HTTPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420E94881CD4BAB100D1AE55 /* HTTPRequest.swift */; };
 		42E8AD7D1CD3771100B0B988 /* Caches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E8AD7C1CD3771100B0B988 /* Caches.swift */; };
 		42F79C2E1CC26A2200F751FD /* CachedApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 42F79C2D1CC26A2200F751FD /* CachedApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		42F79C391CC26A6600F751FD /* CacheNameSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F79C381CC26A6600F751FD /* CacheNameSpace.swift */; };
@@ -17,6 +21,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		420E94851CD4BAB100D1AE55 /* HTTPMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		420E94861CD4BAB100D1AE55 /* HTTPRequestPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPRequestPath.swift; sourceTree = "<group>"; };
+		420E94871CD4BAB100D1AE55 /* HTTPResponseParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPResponseParser.swift; sourceTree = "<group>"; };
+		420E94881CD4BAB100D1AE55 /* HTTPRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPRequest.swift; sourceTree = "<group>"; };
 		42E8AD7C1CD3771100B0B988 /* Caches.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Caches.swift; sourceTree = "<group>"; };
 		42F79C2A1CC26A2200F751FD /* CachedApi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CachedApi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		42F79C2D1CC26A2200F751FD /* CachedApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CachedApi.h; sourceTree = "<group>"; };
@@ -48,6 +56,17 @@
 				66B6B7C6EC1BF07C323229A3 /* Pods_CachedApi.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		42E8AD951CD473D700B0B988 /* HTTPRequesting */ = {
+			isa = PBXGroup;
+			children = (
+				420E94851CD4BAB100D1AE55 /* HTTPMethod.swift */,
+				420E94861CD4BAB100D1AE55 /* HTTPRequestPath.swift */,
+				420E94871CD4BAB100D1AE55 /* HTTPResponseParser.swift */,
+				420E94881CD4BAB100D1AE55 /* HTTPRequest.swift */,
+			);
+			path = HTTPRequesting;
 			sourceTree = "<group>";
 		};
 		42F79C201CC26A2200F751FD = {
@@ -83,6 +102,7 @@
 			children = (
 				42F79C371CC26A4500F751FD /* Api */,
 				42F79C361CC26A3E00F751FD /* Cache */,
+				42E8AD951CD473D700B0B988 /* HTTPRequesting */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -155,6 +175,7 @@
 		42F79C211CC26A2200F751FD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = wegie;
 				TargetAttributes = {
@@ -169,6 +190,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 42F79C201CC26A2200F751FD;
 			productRefGroup = 42F79C2B1CC26A2200F751FD /* Products */;
@@ -230,9 +252,13 @@
 			files = (
 				42F79C3B1CC26A7000F751FD /* CacheKey.swift in Sources */,
 				42F79C3D1CC26A7800F751FD /* Cache.swift in Sources */,
+				420E94891CD4BAB100D1AE55 /* HTTPMethod.swift in Sources */,
 				42F79C3F1CC26B2500F751FD /* Api.swift in Sources */,
 				42E8AD7D1CD3771100B0B988 /* Caches.swift in Sources */,
+				420E948A1CD4BAB100D1AE55 /* HTTPRequestPath.swift in Sources */,
+				420E948C1CD4BAB100D1AE55 /* HTTPRequest.swift in Sources */,
 				42F79C391CC26A6600F751FD /* CacheNameSpace.swift in Sources */,
+				420E948B1CD4BAB100D1AE55 /* HTTPResponseParser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

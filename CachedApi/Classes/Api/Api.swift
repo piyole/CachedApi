@@ -27,4 +27,8 @@ public class Api {
         }
     }
 
+    public final func clearCache(ns: CacheNameSpace) {
+        caches.clear(ns)
+    }
+
 }

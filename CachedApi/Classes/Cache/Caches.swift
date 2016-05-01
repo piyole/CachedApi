@@ -21,4 +21,8 @@ class Caches {
         return cache!
     }
 
+    func clear(ns: CacheNameSpace) -> Bool {
+        return caches.removeValueForKey(ns.name) != nil
+    }
+
 }
